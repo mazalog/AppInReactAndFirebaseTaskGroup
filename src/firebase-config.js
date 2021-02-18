@@ -1,6 +1,6 @@
 export default{
   
-        apiKey: process.env.REACT_APP_API_KEY,
+        apiKey: "AIzaSyDOorkGuX42G7wAx_bCJ4t4tIvBrmQ4bMM",
         authDomain: "grouptaskmz.firebaseapp.com",
         projectId: "grouptaskmz",
         storageBucket: "grouptaskmz.appspot.com",
