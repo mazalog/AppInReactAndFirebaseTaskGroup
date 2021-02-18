@@ -22,7 +22,6 @@ const UnirmeGrupo = (props) => {
   const db = useFirestore();
   const firebase = useFirebaseApp();
 
-  const [grupos, setgrupos] = useState([]);
   const [uniones, setuniones] = useState([]);
   const mostraruniones = () => {
     firebase.auth().onAuthStateChanged((user) => {
